@@ -1,5 +1,5 @@
 prompt ('How many piexels are there in the width of block?');
-const result = parseInt("100px")
-const resultIs ="100"
-const change = Number(resultIs)
-console.log(typeof change);
+const result = "100px";
+const rebuild = parseInt("100px")
+const change = Number(rebuild)
+console.log(change);
