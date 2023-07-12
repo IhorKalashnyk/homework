@@ -1,3 +1,5 @@
+//1. Написати функцію maxNumber(a, b), яка отримує два числа, то повертає більший з них.
+
 // let number = max(25, 50);
 // console.log(number);
 
@@ -44,7 +46,7 @@
 // }
 
 
-
+//2. Написати функцію checkAge(age), яка отримую вік користувача і якщо йому меньше 18, тоді повертати false, інакше - true
 
 // function checkAge(age) {
 //     if (age < 18){
@@ -146,9 +148,5 @@ console.log(result1)
 
 
 
-//test
 
-const str = "What are you doing right now?";
-const maxLength = 15;
 
-function cutString(str, maxLength) 
