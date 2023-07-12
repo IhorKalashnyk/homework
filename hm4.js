@@ -13,12 +13,14 @@ console.log(str2.length);
 const maxLength = "36"
 
 
-if (maxLength>minlength) {
-    console.log('maxLength>minlength')
+
+
+if (maxLength > minlength) {
+    console.log('maxLength > minlength')
     const result = str2.slice(0, 26);
     console.log(result);
-} else if (maxLength<minlength) {
-    console.log('maxLength<minlength')
+} else if (maxLength < minlength) {
+    console.log('maxLength < minlength')
     const result = str2.slice(0, 36);
     console.log(result); 
 }
