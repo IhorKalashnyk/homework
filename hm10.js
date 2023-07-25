@@ -5,8 +5,7 @@
 // Примітка: Порожні масиви мають повертати 0.
 
 
-
-  const numbersArray = []
+const numbersArray = [1, 2, 4, 7, 10]
 
  function findAverage(numbers) {
      if (numbers.length === 0) {
@@ -20,5 +19,22 @@
 
  const result = findAverage(numbersArray);
  console.log(result);
+
+
+
+//   const numbersArray = []
+
+//  function findAverage(numbers) {
+//      if (numbers.length === 0) {
+//         return 0;
+//      }
+//      const  amountPluss = numbers.reduce((acc, numbers)=> acc + numbers, 0);
+
+//      return amountPluss / numbers.length 
+//  }
+
+
+//  const result = findAverage(numbersArray);
+//  console.log(result);
 
 
